@@ -15,7 +15,7 @@ window.addEventListener('load', () => {
 });
 
 function init() {       //eseménykezelő
-    if (calcButton) {
+    if (doc.calcButton) {
         doc.calcButton.addEventListener('click', () => {
             startCalc();
         });
